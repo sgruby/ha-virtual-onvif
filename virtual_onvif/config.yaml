@@ -47,7 +47,7 @@ schema:
       firmware_version: str?
       motion_trigger_entity: str?
       door_trigger_entity: str?
-      custom_events: [str]?
+      custom_events: list(str)?
   discovery_enabled: bool
   log_level: list(debug|info|warning|error)
 
